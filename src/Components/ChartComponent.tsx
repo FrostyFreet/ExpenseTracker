@@ -5,6 +5,7 @@ interface Transaction {
     transaction: string;
     amount: number;
 }
+
 interface TransactionsProps {
     expense: Transaction[];
     income: Transaction[];
@@ -26,7 +27,7 @@ export default function ChartComponent({ expense, income }: TransactionsProps) {
 
     return (
         <Box className="chart-container">
-            <Typography variant="h5" className="chart-title">Transaction Distribution</Typography>
+            <Typography variant="h4" className="chart-title text-center">Transaction Distribution</Typography>
             <PieChart
                 series={[{
                     data,
@@ -37,7 +38,7 @@ export default function ChartComponent({ expense, income }: TransactionsProps) {
                 sx={{
                     [`& .${pieArcLabelClasses.root}`]: {
                         fontWeight: 'bold',
-                        color: 'white',
+                        color: 'white'
                     },
                 }}
                 width={500}
