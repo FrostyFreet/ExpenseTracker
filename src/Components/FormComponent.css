@@ -1,0 +1,31 @@
+.form-container {
+    background-color: #f8f9fa; /* Light background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.form {
+    margin-bottom: 20px;
+}
+
+.submit-button {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+}
+
+.submit-button:hover {
+    background-color: #0056b3; /* Darker shade for hover */
+}
+
+.chart-container {
+    background-color: #ffffff; /* White background for chart */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.chart-title {
+    margin-bottom: 15px; /* Space between title and chart */
+}
